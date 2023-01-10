@@ -12,7 +12,7 @@ input_button.addEventListener("click", () => {
         alert("[ERROR] Type positive number!")
     }
     else if (Number(input_number.value) > 170) {
-        alert("[ERROR] Large number, type again!")
+        alert("[ERROR] Number too big, please retype!")
     }
     else {
         let number = Number(input_number.value);
