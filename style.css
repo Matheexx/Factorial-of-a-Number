@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2d6ac5;
+    font: normal 12pt Arial;
+}
+
+header{
+    text-align: center;
+    color: #fffeda;
+    margin: 20px;
+}
+
+#factorial_machine {
+    background-color: #fffeda;
+
+    width: 420px;
+
+    padding: 5px;
+    margin: auto;
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+#div-input_number {
+    font-size: 18px;
+}
+
+#input_number {
+    height: 30px;
+    font-size: 18px;
+}
+
+#input_button {
+    width: 65px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#result {
+    height: 100px;
+
+    background-color: #bcd5ff;
+    color: black;
+
+    margin: 5px;
+    font-size: 18px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    color: #fffeda;
+    margin: 20px;
+    font-size: 18px;
+}
