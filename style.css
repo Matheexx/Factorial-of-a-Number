@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #2d6ac5;
+    background-color: #4283e4;
     font: normal 12pt Arial;
 }
 
@@ -23,6 +23,7 @@ header{
     margin: auto;
 
     border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
 
     display: flex;
     flex-direction: column;
